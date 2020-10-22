@@ -2,13 +2,14 @@
 
 - use python3.
 
-- start game server with python3 game_server.py.
-- start client with python3 game.py.
+- start game server with `python3 game_server.py`.
+- start client with `python3 game.py`.
 - 8 clients can connect. Max client number can be changed, if needed.
 
 On standard localhost is used. Other IP addresses can be configured.
 
-    Plase note, that this is a stupid server. Server returns and does everything that it's been asked. Does not even check if client really is a "connected" player.    
+    Plase note, that this is a stupid server. Server returns and does everything that it's been asked. 
+    Does not even check if client really is a "connected" player.    
     
     GameClient (game_client.py) class has functions:
     
