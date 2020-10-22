@@ -3,15 +3,14 @@
 - use python3.
 
 - start game server with python3 game_server.py.
-- use client with python3 game.py.
+- start client with python3 game.py.
+- 8 clients can connect. Max client number can be changed, if needed.
 
 On standard localhost is used. Other IP addresses can be configured.
 
-This is a stupid server:
-        
-    Server returns and does everything that it's been asked. Does not even check if client really is a "connected" player.    
+    Plase note, that this is a stupid server. Server returns and does everything that it's been asked. Does not even check if client really is a "connected" player.    
     
-    GameClient (gameclient.py) class has functions:
+    GameClient (game_client.py) class has functions:
     
         Varibles:
             
@@ -48,7 +47,7 @@ This is a stupid server:
             Will send new player creation request for server and wait for response.
             
     
-##PROTOCOL DATA MODEL:
+        PROTOCOL DATA MODEL:
              
         - Small data FRAME for fast performance: 
             - Using bit orientated thinking, not whole bytes. (with bitstring library)
